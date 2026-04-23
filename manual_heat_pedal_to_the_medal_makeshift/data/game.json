@@ -1,0 +1,11 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "HEAT Pedal to the Metal",
+  "creator": "Makeshift",
+  "filler_item_name": "Fumes",
+  "starting_items": [
+  	{
+  		"item_categories": ["Starting"]
+  	}
+  ]
+}

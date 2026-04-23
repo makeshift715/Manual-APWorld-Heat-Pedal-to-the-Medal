@@ -1,0 +1,514 @@
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+   	"data": [
+   		{
+   			"name": "Win a Race",
+   			"category": ["Victory"],
+   			"victory": true,
+   			"requires": "|@Upgrade:3| and |@Heat:6| and |Remove Stress:3| and |@Card Draw:7|"
+   		},
+   		{
+   			"name": "Slipstream past a corner",
+   			"category": ["Corner", "Slipstream"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Slipstream past a press corner",
+   			"category": ["Corner", "Slipstream"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Speed past a corner by 2 or more",
+   			"category": ["Corner", "Speed", "Sphere 0"]
+   		},
+   		{
+   			"name": "Speed past a press corner by 2 or more",
+   			"category": ["Corner", "Speed", "Sphere 0"]
+   		},
+   		{
+   			"name": "Complete the first lap in 3rd place or better",
+   			"category": ["Complete Lap", "Placement"],
+   			"requires": "|@Card Draw:7|"
+   		},
+   		{
+   			"name": "Reach a speed of 15 or more",
+   			"category": ["Speed", "Sphere 0"]
+   		},
+   		{
+   			"name": "Complete a lap in 1st place or better",
+   			"category": ["Complete Lap", "Placement"],
+   			"requires": "|@Card Draw:7|"
+   		},
+   		{
+   			"name": "Start a race with 7 or more heat",
+   			"category": ["Race Start"],
+   			"requires": "|@Heat:7|"
+   		},
+   		{
+   			"name": "Complete an extra lap",
+   			"category": ["Race Start", "Complete Lap", "Sphere 0"]
+   		},
+   		{
+   			"name": "Complete a race in 3rd place or better",
+   			"category": ["Complete Lap", "Placement"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Pass 3 cars in a single turn",
+   			"category": ["Pass Cars"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Complete a lap while drawing 1 less card per turn in step 9",
+   			"category": ["Race Start", "Complete Lap", "Sphere 0"]
+   		},
+   		{
+   			"name": "Complete a lap with an extra stress card in your deck",
+   			"category": ["Race Start", "Complete Lap", "Sphere 0"]
+   		},
+   		{
+   			"name": "Impress the press corners two or more times in a single lap",
+   			"category": ["Corner", "Sphere 0"],
+   			"description": "Either slipstream past stress corners or speed past one by 2 or more twice."
+   		},
+   		{
+   			"name": "Slipstream while you are in 3rd or 4th gear",
+   			"category": ["Slipstream"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Complete a lap without discarding or cooling down a heat card",
+   			"category": ["Race Start", "Complete Lap", "Sphere 0"]
+   		},
+   		{
+   			"name": "Complete a lap without falling to last place or lower",
+   			"category": ["Complete Lap", "Placement"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Complete a lap without discarding more than 1 card in step 8",
+   			"category": ["Race Start", "Complete Lap", "Sphere 0"]
+   		},
+   		{
+   			"name": "Pass a Press Corner without paying heat",
+   			"category": ["Corner", "Sphere 0"]
+   		},
+   		{
+   			"name": "Complete a lap without playing Stress cards",
+   			"category": ["Race Start", "Complete Lap"],
+   			"requires": "|@Card Draw:7| and |Remove Stress:3|"
+   		},
+   		{
+   			"name": "Slipstream to a spot behind another car",
+   			"category": ["Slipstream"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Pass the B corner line in 1st or 2nd place",
+   			"category": ["Corner", "Placement"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Pass a corner with a speed of 1",
+   			"category": ["Speed", "Corner", "Sphere 0"]
+   		},
+   		{
+   			"name": "Pass a car with a speed of 2 or 3",
+   			"category": ["Speed"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Slipstream past a car with a speed of 4, 5, or 6",
+   			"category": ["Speed", "Slipstream"],
+   			"requires": "|@Card Draw:6|"
+   		},
+   		{
+   			"name": "Stop right before a corner with a speed of 7, 8, or 9",
+   			"category": ["Speed", "Corner", "Sphere 0"]
+   		},
+   		{
+   			"name": "Achieve a speed of 10 or more without passing any car",
+   			"category": ["Speed", "Pass Cars", "Sphere 0"]
+   		},
+   		{
+   			"name": "Boost 2 or more times in a single turn",
+   			"category": ["Boost", "Sphere 0"]
+   		},
+   		{
+   			"name": "Boost 4 or more times in a single turn",
+   			"category": ["Boost", "Sphere 0"]
+   		},
+   		{
+   			"name": "Pay 2 or more Heat in a single turn",
+   			"category": ["Heat"],
+   			"requires": "|@Heat:2|"
+   		},
+   		{
+   			"name": "Pay 4 or more Heat in a single turn",
+   			"category": ["Heat"],
+   			"requires": "|@Heat:4|"
+   		},
+   		{
+   			"name": "Cool down 3 or more Heat in a single turn",
+   			"category": ["Cooldown"],
+   			"requires": "|@Heat:3|"
+   		},
+   		{
+   			"name": "Cool down 4 or more Heat in a single turn",
+   			"category": ["Cooldown"],
+   			"requires": "|@Heat:4| and |@Card Draw:5|"
+   		},
+   		{
+   			"name": "Cool down 6 or more Heat in a single turn",
+   			"category": ["Cooldown"],
+   			"requires": "|@Heat:6| and |@Card Draw:7| and (|Tires 36| or |Turbo Charger 42| or |4 Wheel Drive 3|)"
+   		},
+   		
+   		{
+   			"name": "Play 4 cards and achieve a speed of 3 or less",
+   			"category": ["Speed"],
+   			"requires": "|@0|"
+   		},
+   		{
+   			"name": "Play 1 card and achieve a speed of 5 or greater",
+   			"category": ["Speed"],
+   			"requires": "|4 Wheel Drive 1| or |@5| or |@6| or |@7| or |@8|"
+   		},
+   		{
+   			"name": "Use upgrade cards to Boost 2 or more times in a single turn",
+   			"category": ["Boost"],
+   			"requires": "{ItemValue(Boost:2)}"
+   		},
+   		{
+   			"name": "Use upgrade cards to Boost 4 or more times in a single turn",
+   			"category": ["Boost"],
+   			"requires": "{ItemValue(Boost:4)}"
+   		},
+   		{
+   			"name": "Use upgrade cards to Boost 5 or more times in a single turn",
+   			"category": ["Boost"],
+   			"requires": "{ItemValue(Boost:5)} and (|4 Wheel Drive 2| or |Tires 41|)"
+   		},
+   		{
+   			"name": "Use upgrade cards to pay 2 or more heat in a single turn",
+   			"category": ["Heat"],
+   			"requires": "|@Heat:2| and {ItemValue(Burn:2)}"
+   		},
+   		{
+   			"name": "Use upgrade cards to pay 4 or more heat in a single turn",
+   			"category": ["Heat", "Advanced"],
+   			"requires": "|@Heat:4| and {ItemValue(Burn:4)}"
+   		},
+   		{
+   			"name": "Use upgrade cards to pay 5 or more heat in a single turn",
+   			"category": ["Heat", "Advanced"],
+   			"requires": "|@Heat:5| and {ItemValue(Burn:5)} and (|Turbo Charger 42| or |Wings 46|)"
+   		},
+   		{
+   			"name": "Scrap 3 cards in a single turn",
+   			"category": ["Scrap", "Advanced"],
+   			"requires": "{ItemValue(Scrap:3)}"
+   		},
+   		{
+   			"name": "Scrap 6 cards in a single turn",
+   			"category": ["Scrap", "Advanced"],
+   			"requires": "{ItemValue(Scrap:6)}"
+   		},
+   		{
+   			"name": "Scrap 9 cards in a single turn",
+   			"category": ["Scrap", "Advanced"],
+   			"requires": "{ItemValue(Scrap:9)} and (|Gas Pedal 28| or |Front Wing 57| or |Turbo Charger 43|)"
+   		},
+   		{
+   			"name": "Scrap 12 cards in a single turn",
+   			"category": ["Scrap", "Advanced"],
+   			"requires": "{ItemValue(Scrap:12)} and |Turbo Charger 43|"
+   		},
+   		{
+   			"name": "Pass an corner while adjusting the speed limit -2",
+   			"category": ["Corner", "Advanced"],
+   			"requires": "{ItemValue(Negative Adjust Speed Limit:2)}"
+   		},
+   		{
+   			"name": "Pass an corner while adjusting the speed limit +2",
+   			"category": ["Corner", "Advanced"],
+   			"requires": "{ItemValue(Adjust Speed Limit:2)}"
+   		},
+   		{
+   			"name": "Pass an corner while adjusting the speed limit +4",
+   			"category": ["Corner", "Advanced"],
+   			"requires": "{ItemValue(Adjust Speed Limit:4)}"
+   		},
+   		{
+   			"name": "Pass an corner while adjusting the speed limit +6",
+   			"category": ["Corner", "Advanced"],
+   			"requires": "{ItemValue(Adjust Speed Limit:6)} and |Wings 46|"
+   		},
+   		{
+   			"name": "Use upgrade cards to Cooldown 2 or more Heat in a single turn",
+   			"category": ["Cooldown"],
+   			"requires": "|@Heat:2| and {ItemValue(Cooldown:2)}"
+   		},
+   		{
+   			"name": "Use upgrade cards to Cooldown 4 or more Heat in a single turn",
+   			"category": ["Cooldown"],
+   			"requires": "|@Heat:4| and {ItemValue(Cooldown:4)} and (|@Card Draw:6| and ((|Tires 36| or |Turbo Charger 42| or |4 Wheel Drive 3|) or (|Cooling System 12| and |Tires 39|)))"
+   		},
+   		{
+   			"name": "Slipstream 4 or more spaces in a single turn",
+   			"category": ["Slipstream"],
+   			"requires": "|@Card Draw:6| and {ItemValue(Slipstream Boost:2)}"
+   		},
+   		{
+   			"name": "Slipstream 6 or more spaces in a single turn",
+   			"category": ["Slipstream"],
+   			"requires": "|@Card Draw:6| and {ItemValue(Slipstream Boost:4)}"
+   		},
+   		{
+   			"name": "Slipstream 8 or more spaces in a single turn",
+   			"category": ["Slipstream"],
+   			"requires": "|@Card Draw:6| and {ItemValue(Slipstream Boost:6)} and (|R.P.M. 14| or |R.P.M. 15| or |R.P.M. 16| or |R.P.M. 29| or |R.P.M. 30|)"
+   		},
+   		{
+   			"name": "Slipstream 10 or more spaces in a single turn",
+   			"category": ["Slipstream", "Advanced"],
+   			"requires": "|@Card Draw:6| and {ItemValue(Slipstream Boost:8)} and |R.P.M. 29| and |R.P.M. 30|"
+   		},
+   		{
+   			"name": "Reduce 2 or more Stress in a single turn",
+   			"category": ["Reduce Stress"],
+   			"requires": "{ItemValue(Reduce Stress:2)}"
+   		},
+   		{
+   			"name": "Reduce 4 or more Stress in a single turn",
+   			"category": ["Reduce Stress"],
+   			"requires": "{ItemValue(Reduce Stress:4)} and ((|@Card Draw:7| and |Body 4|) or (|@Card Draw:6| and (|Body 6| or |Body 18|)))"
+   		},
+   		{
+   			"name": "Refresh 2 or more cards in a single turn",
+   			"category": ["Refresh", "Advanced"],
+   			"requires": "{ItemValue(Refresh:2)}"
+   		},
+   		{
+   			"name": "Refresh 4 or more cards in a single turn",
+   			"category": ["Refresh", "Advanced"],
+   			"requires": "{ItemValue(Refresh:4)}"
+   		},
+   		{
+   			"name": "Salvage 2 or more cards in a single turn",
+   			"category": ["Salvage", "Advanced"],
+   			"requires": "{ItemValue(Salvage:2)}"
+   		},
+   		{
+   			"name": "Salvage 4 or more cards in a single turn",
+   			"category": ["Salvage", "Advanced"],
+   			"requires": "{ItemValue(Salvage:4)}"
+   		},
+   		{
+   			"name": "Salvage 6 or more cards in a single turn",
+   			"category": ["Salvage", "Advanced", "Heavy Rain"],
+   			"requires": "{ItemValue(Salvage:6)}"
+   		},
+   		{
+   			"name": "Play 5 or more cards in a turn",
+   			"category": ["Direct Play", "Advanced"],
+   			"requires": "{ItemValue(Direct Play:1)}"
+   		},
+   		{
+   			"name": "Use a directly played card to pass a corner",
+   			"category": ["Direct Play", "Advanced", "Corner"],
+   			"requires": "{ItemValue(Direct Play:1)}"
+   		},
+   		{
+   			"name": "Play 2 cards in step 5",
+   			"category": ["Direct Play", "Advanced"],
+   			"requires": "{ItemValue(Direct Play:2)}"
+   		},
+   		{
+   			"name": "Play 4 cards in step 5",
+   			"category": ["Direct Play", "Advanced"],
+   			"requires": "{ItemValue(Direct Play:4)} and |@Card Draw:5|"
+   		},
+   		{
+   			"name": "Accelerate for +2 speed",
+   			"category": ["Accelerate", "Advanced"],
+   			"requires": "{ItemValue(Accelerate:1)}"
+   		},
+   		{
+   			"name": "Accelerate for +4 speed",
+   			"category": ["Accelerate", "Advanced"],
+   			"requires": "{ItemValue(Accelerate:1)} and |@Card Draw:5|"
+   		},
+   		{
+   			"name": "Play 2 or more 4 Wheel Drive cards in a single turn",
+   			"category": ["Named cards", "Basic"],
+   			"requires": "|@4 Wheel Drive:2|"
+   		},
+   		{
+   			"name": "Play 4 4 Wheel Drive cards in a single turn",
+   			"category": ["Named cards", "Basic", "Advanced"],
+   			"requires": "|@4 Wheel Drive:4|"
+   		},
+   		{
+   			"name": "Play 2 or more Body cards in a single turn",
+   			"category": ["Named cards"],
+   			"requires": "|@Body:2|"
+   		},
+   		{
+   			"name": "Play 4 Body cards in a single turn",
+   			"category": ["Named cards", "Basic", "Advanced"],
+   			"requires": "|@Body:4|"
+   		},
+   		{
+   			"name": "Play 2 or more Brakes cards in a single turn",
+   			"category": ["Named cards", "Basic"],
+   			"requires": "|@Brakes:2|"
+   		},
+   		{
+   			"name": "Play 4 Brakes cards in a single turn",
+   			"category": ["Named cards", "Basic"],
+   			"requires": "|@Brakes:4|"
+   		},
+   		{
+   			"name": "Play 2 or more Cooling System cards in a single turn",
+   			"category": ["Named cards", "Basic"],
+   			"requires": "|@Brakes:2|"
+   		},
+   		{
+   			"name": "Play 4 Cooling System cards in a single turn",
+   			"category": ["Named cards", "Basic", "Advanced"],
+   			"requires": "|@Brakes:4|"
+   		},
+   		{
+   			"name": "Play 2 or more R.P.M. cards in a single turn",
+   			"category": ["Named cards"],
+   			"requires": "|@R.P.M.:2|"
+   		},
+   		{
+   			"name": "Play 4 R.P.M. cards in a single turn",
+   			"category": ["Named cards", "Basic", "Advanced"],
+   			"requires": "|@R.P.M.:4|"
+   		},
+   		{
+   			"name": "Play 2 Fuel cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Fuel:2|"
+   		},
+   		{
+   			"name": "Play 2 or more Gas Pedal cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Gas Pedal:2|"
+   		},
+   		{
+   			"name": "Play 4 or more Gas Pedal cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Gas Pedal:4|"
+   		},
+   		{
+   			"name": "Play 5 Gas Pedal cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Gas Pedal:5| and |@Card Draw:5|"
+   		},
+   		{
+   			"name": "Play 2 or more Suspension cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Suspension:2|"
+   		},
+   		{
+   			"name": "Play 4 Suspension cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Suspension:4|"
+   		},
+   		{
+   			"name": "Play 2 or more Tires cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Tires:2|"
+   		},
+   		{
+   			"name": "Play 4 Tires cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Tires:4|"
+   		},
+   		{
+   			"name": "Play 2 or more Turbo Charger cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Turbo Charger:2| and |@Heat:3|"
+   		},
+   		{
+   			"name": "Play 2 or more Wings cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Wings:2| and |@Heat:3|"
+   		},
+   		{
+   			"name": "Play 3 Wings cards in a single turn",
+   			"category": ["Named cards", "Advanced"],
+   			"requires": "|@Wings:3| and |@Heat:4|"
+   		},
+   		{
+   			"name": "Super Cool 2 Heat in a single turn",
+   			"category": ["Super Cool", "Heavy Rain"],
+   			"requires": "{ItemValue(Super Cool:2)} and |@Heat:2|"
+   		},
+   		{
+   			"name": "Super Cool 4 Heat in a single turn",
+   			"category": ["Super Cool", "Heavy Rain"],
+   			"requires": "{ItemValue(Super Cool:4)} and |@Heat:4|"
+   		},
+   		{
+   			"name": "Play 2 or more Air Intake cards in a single turn",
+   			"category": ["Named cards", "Heavy Rain"],
+   			"requires": "|@Air Intake:2|"
+   		},
+   		{
+   			"name": "Play 4 Air Intake cards in a single turn",
+   			"category": ["Named cards", "Heavy Rain"],
+   			"requires": "|@Air Intake:4|"
+   		},
+   		{
+   			"name": "Draft 2 spaces in a single turn",
+   			"category": ["Draft", "Tunnel Vision"],
+   			"requires": "|@Card Draw:6| and {ItemValue(Draft:2)}"
+   		},
+   		{
+   			"name": "Draft 4 spaces in a single turn",
+   			"category": ["Draft", "Tunnel Vision"],
+   			"requires": "|@Card Draw:6| and {ItemValue(Draft:4)}"
+   		},
+   		{
+   			"name": "Draft 6 spaces in a single turn",
+   			"category": ["Draft", "Tunnel Vision"],
+   			"requires": "|@Card Draw:6| and {ItemValue(Draft:6)} and |Front Wing 55|"
+   		},
+   		{
+   			"name": "Play 2 or more Front Wing cards in a single turn",
+   			"category": ["Named cards", "Tunnel Vision"],
+   			"requires": "|@Front Wing:2|"
+   		},
+   		{
+   			"name": "Play 4 Front Wing cards in a single turn",
+   			"category": ["Named cards", "Tunnel Vision"],
+   			"requires": "|@Front Wing:4|"
+   		},
+   		{
+   			"name": "Slipstream past 3 cars in a single turn",
+   			"category": ["Extra Slipstream", "Rocky Road"],
+   			"requires": "|@Card Draw:6| and {ItemValue(Extra Slipstream:2)}"
+   		},
+   		{
+   			"name": "Slipstream past 5 cars in a single turn",
+   			"category": ["Extra Slipstream", "Rocky Road"],
+   			"requires": "|@Card Draw:6| and {ItemValue(Extra Slipstream:4)}"
+   		},
+   		{
+   			"name": "Play 2 or more Sliding Skirts cards in a single turn",
+   			"category": ["Named cards", "Rocky Road"],
+   			"requires": "|@Sliding Skirts:2|"
+   		},
+   		{
+   			"name": "Play 4 Sliding Skirts cards in a single turn",
+   			"category": ["Named cards", "Rocky Road"],
+   			"requires": "|@Sliding Skirts:4|"
+   		}
+   	]
+}
+

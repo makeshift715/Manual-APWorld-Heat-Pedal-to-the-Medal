@@ -1,0 +1,757 @@
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+	"data": [
+		{
+			"name": "Starting 1 card",
+			"category": ["Starting", "1"],
+			"progression": true,
+			"count": 3,
+			"sort-key": "row-0-01"
+		},
+		{
+			"name": "Starting 2 card",
+			"category": ["Starting", "2"],
+			"progression": true,
+			"count": 3,
+			"sort-key": "row-0-02"
+		},
+		{
+			"name": "Starting 3 card",
+			"category": ["Starting", "3"],
+			"progression": true,
+			"count": 3,
+			"sort-key": "row-0-03"
+		},
+		{
+			"name": "Starting 4 card",
+			"category": ["Starting", "4"],
+			"progression": true,
+			"count": 3,
+			"sort-key": "row-0-04"
+		},
+		{
+			"name": "Starting Heat",
+			"category": ["Starting", "Heat"],
+			"progression": true,
+			"count": 3,
+			"sort-key": "row-0-05"
+		},
+		
+		{
+	    		"name": "Step 9 draw extra card",
+	    		"category": ["Card Draw", "Other"],
+	    		"classification_count": {
+	    			"progression": 3,
+	    			"useful": 1
+	    		},
+	    		"sort-key": "row-3-01"
+		},
+		{
+	    		"name": "Starting Card Draw",
+	    		"category": ["Card Draw", "Other", "Other"],
+	    		"progression": true,
+			"count": 4,
+	    		"sort-key": "row-3-00"
+		},
+		{
+			"name": "Starting Upgrade 0 card",
+			"category": ["Upgrade", "Starting Upgrade", "0"],
+			"progression": true,
+			"sort-key": "row-1-01"
+		},
+		{
+			"name": "Starting Upgrade 5 card",
+			"category": ["Upgrade", "Starting Upgrade", "5"],
+			"progression": true,
+			"sort-key": "row-1-02"
+		},
+		{
+			"name": "Starting Upgrade Heat card",
+			"category": ["Upgrade", "Starting Upgrade", "Heat"],
+			"progression": true,
+			"sort-key": "row-1-03"
+		},
+		{
+			"name": "4 Wheel Drive 1",
+			"category": ["Upgrade", "4 Wheel Drive", "4", "Basic"],
+			"progression": true,
+			"value": {
+				"Boost": 1
+			},
+			"sort-key": "row-2-01"
+		},
+		{
+			"name": "4 Wheel Drive 2",
+			"category": ["Upgrade", "4 Wheel Drive", "Basic"],
+			"progression": true,
+			"value": {
+				"Boost": 3
+			},
+			"sort-key": "row-2-02"
+		},
+		{
+			"name": "4 Wheel Drive 3",
+			"category": ["Upgrade", "4 Wheel Drive", "Basic"],
+			"progression": true,
+			"value": {
+				"Boost": 1,
+				"Cooldown": 3
+			},
+			"sort-key": "row-2-03"
+		},
+		{
+			"name": "Body 4",
+			"category": ["Upgrade", "Body", "3", "Basic"],
+			"progression": true,
+			"value": {
+				"Reduce Stress": 2
+			},
+			"sort-key": "row-2-04"
+		},
+		{
+			"name": "Body 5",
+			"category": ["Upgrade", "Body", "5", "Basic"],
+			"progression": true,
+			"value": {
+				"Reduce Stress": 1
+			},
+			"sort-key": "row-2-05"
+		},
+		{
+			"name": "Body 6",
+			"category": ["Upgrade", "Body", "1", "Basic"],
+			"progression": true,
+			"value": {
+				"Reduce Stress": 3
+			},
+			"sort-key": "row-2-06"
+		},
+		{
+			"name": "Brakes 7",
+			"category": ["Upgrade", "Brakes", "1", "2", "3", "4", "Basic"],
+			"progression": true,
+			"value": {
+				"Burn": 1
+			},
+			"sort-key": "row-2-07"
+		},
+		{
+			"name": "Brakes 8",
+			"category": ["Upgrade", "Brakes", "1", "3", "Basic"],
+			"progression": true,
+			"sort-key": "row-2-08"
+		},
+		{
+			"name": "Brakes 9",
+			"category": ["Upgrade", "Brakes", "2", "4", "Basic"],
+			"progression": true,
+			"sort-key": "row-2-09"
+		},
+		{
+			"name": "Brakes 10",
+			"category": ["Upgrade", "Brakes", "1", "5", "Basic"],
+			"progression": true,
+			"sort-key": "row-2-10"
+		},
+		{
+			"name": "Cooling System 11",
+			"category": ["Upgrade", "Cooling System", "6", "Basic"],
+			"progression": true,
+			"value": {
+				"Burn": 1,
+				"Cooldown": 1
+			},
+			"sort-key": "row-2-11"
+		},
+		{
+			"name": "Cooling System 12",
+			"category": ["Upgrade", "Cooling System", "1", "Basic"],
+			"progression": true,
+			"value": {
+				"Cooldown": 2
+			},
+			"sort-key": "row-2-12"
+		},
+		{
+			"name": "Cooling System 13",
+			"category": ["Upgrade", "Cooling System", "3", "Basic"],
+			"progression": true,
+			"value": {
+				"Cooldown": 1
+			},
+			"sort-key": "row-2-13"
+		},
+		{
+			"name": "R.P.M. 14",
+			"category": ["Upgrade", "R.P.M.", "1", "Basic"],
+			"progression": true,
+			"value": {
+				"Slipstream Boost": 2
+			},
+			"sort-key": "row-2-14"
+		},
+		{
+			"name": "R.P.M. 15",
+			"category": ["Upgrade", "R.P.M.", "2", "Basic"],
+			"progression": true,
+			"value": {
+				"Slipstream Boost": 2
+			},
+			"sort-key": "row-2-15"
+		},
+		{
+			"name": "R.P.M. 16",
+			"category": ["Upgrade", "R.P.M.", "3", "Basic"],
+			"progression": true,
+			"value": {
+				"Slipstream Boost": 2
+			},
+			"sort-key": "row-2-16"
+		},
+		{
+			"name": "Heat Upgrade 17",
+			"category": ["Upgrade", "Heat", "Basic"],
+			"progression": true,
+			"sort-key": "row-2-17"
+		},
+		{
+			"name": "Body 18",
+			"category": ["Upgrade", "Body", "6", "Advanced"],
+			"progression": true,
+			"value": {
+				"Reduce Stress": 3,
+				"Burn": 1
+			},
+			"sort-key": "row-2-18"
+		},
+		{
+			"name": "Body 19",
+			"category": ["Upgrade", "Body", "2", "Advanced"],
+			"progression": true,
+			"value": {
+				"Reduce Stress": 1,
+				"Cooldown": 1,
+				"Scrap": 2
+			},
+			"sort-key": "row-2-19"
+		},
+		{
+			"name": "Body 20",
+			"category": ["Upgrade", "Body", "2", "Advanced"],
+			"progression": true,
+			"value": {
+				"Reduce Stress": 1,
+				"Slipstream Boost": 1
+			},
+			"sort-key": "row-2-20"
+		},
+		{
+			"name": "Cooling System 21",
+			"category": ["Upgrade", "Cooling System", "4", "Advanced"],
+			"progression": true,
+			"value": {
+				"Scrap": 2,
+				"Cooldown": 1
+			},
+			"sort-key": "row-2-21"
+		},
+		{
+			"name": "Fuel 22",
+			"category": ["Upgrade", "Fuel", "2", "Advanced"],
+			"progression": true,
+			"value": {
+				"Salvage": 2
+			},
+			"sort-key": "row-2-22"
+		},
+		{
+			"name": "Fuel 23",
+			"category": ["Upgrade", "Fuel", "Advanced"],
+			"progression": true,
+			"value": {
+				"Boost": 1,
+				"Salvage": 2,
+				"Cooldown": 1
+			},
+			"sort-key": "row-2-23"
+		},
+		{
+			"name": "Gas Pedal 24",
+			"category": ["Upgrade", "Gas Pedal", "1", "Advanced"],
+			"progression": true,
+			"value": {
+				"Direct Play": 1,
+				"Scrap": 1
+			},
+			"sort-key": "row-2-24"
+		},
+		{
+			"name": "Gas Pedal 25",
+			"category": ["Upgrade", "Gas Pedal", "2", "Advanced"],
+			"progression": true,
+			"value": {
+				"Direct Play": 1,
+				"Scrap": 2
+			},
+			"sort-key": "row-2-25"
+		},
+		{
+			"name": "Gas Pedal 26",
+			"category": ["Upgrade", "Gas Pedal", "3", "Advanced"],
+			"progression": true,
+			"value": {
+				"Direct Play": 1,
+				"Scrap": 3
+			},
+			"sort-key": "row-2-26"
+		},
+		{
+			"name": "Gas Pedal 27",
+			"category": ["Upgrade", "Gas Pedal", "4", "Advanced"],
+			"progression": true,
+			"value": {
+				"Direct Play": 1,
+				"Burn": 1,
+				"Cooldown": 1
+			},
+			"sort-key": "row-2-27"
+		},
+		{
+			"name": "Gas Pedal 28",
+			"category": ["Upgrade", "Gas Pedal", "1", "Advanced"],
+			"progression": true,
+			"value": {
+				"Direct Play": 1,
+				"Accelerate": 1,
+				"Scrap": 5
+			},
+			"sort-key": "row-2-28"
+		},
+		{
+			"name": "R.P.M. 29",
+			"category": ["Upgrade", "R.P.M.", "Advanced"],
+			"progression": true,
+			"value": {
+				"Boost": 1,
+				"Slipstream Boost": 3
+			},
+			"sort-key": "row-2-29"
+		},
+		{
+			"name": "R.P.M. 30",
+			"category": ["Upgrade", "R.P.M.", "1", "Advanced"],
+			"progression": true,
+			"value": {
+				"Burn": 1,
+				"Slipstream Boost": 3
+			},
+			"sort-key": "row-2-30"
+		},
+		{
+			"name": "R.P.M. 31",
+			"category": ["Upgrade", "R.P.M.", "1", "2", "Advanced"],
+			"progression": true,
+			"value": {
+				"Slipstream Boost": 1
+			},
+			"sort-key": "row-2-31"
+		},
+		{
+			"name": "Suspension 32",
+			"category": ["Upgrade", "Suspension", "2", "Advanced"],
+			"progression": true,
+			"value": {
+				"Refresh": 1,
+				"Reduce Stress": 1
+			},
+			"sort-key": "row-2-32"
+		},
+		{
+			"name": "Suspension 33",
+			"category": ["Upgrade", "Suspension", "2", "Advanced"],
+			"progression": true,
+			"value": {
+				"Refresh": 1,
+				"Cooldown": 1
+			},
+			"sort-key": "row-2-33"
+		},
+		{
+			"name": "Suspension 34",
+			"category": ["Upgrade", "Suspension", "4", "Advanced"],
+			"progression": true,
+			"value": {
+				"Refresh": 1
+			},
+			"sort-key": "row-2-34"
+		},
+		{
+			"name": "Suspension 35",
+			"category": ["Upgrade", "Suspension", "1", "Advanced"],
+			"progression": true,
+			"value": {
+				"Refresh": 1,
+				"Slipstream Boost": 1
+			},
+			"sort-key": "row-2-35"
+		},
+		{
+			"name": "Tires 36",
+			"category": ["Upgrade", "Tires", "2", "Advanced"],
+			"progression": true,
+			"value": {
+				"Negative Adjust Speed Limit": 1,
+				"Cooldown": 3
+			},
+			"sort-key": "row-2-36"
+		},
+		{
+			"name": "Tires 37",
+			"category": ["Upgrade", "Tires", "1", "Advanced"],
+			"progression": true,
+			"value": {
+				"Scrap": 2,
+				"Adjust Speed Limit": 1
+			},
+			"sort-key": "row-2-37"
+		},
+		{
+			"name": "Tires 38",
+			"category": ["Upgrade", "Tires", "2", "Advanced"],
+			"progression": true,
+			"value": {
+				"Scrap": 2,
+				"Adjust Speed Limit": 1
+			},
+			"sort-key": "row-2-38"
+		},
+		{
+			"name": "Tires 39",
+			"category": ["Upgrade", "Tires", "3", "Advanced"],
+			"progression": true,
+			"value": {
+				"Negative Adjust Speed Limit": 1,
+				"Cooldown": 2
+			},
+			"sort-key": "row-2-39"
+		},
+		{
+			"name": "Tires 40",
+			"category": ["Upgrade", "Tires", "Advanced"],
+			"progression": true,
+			"value": {
+				"Boost": 1,
+				"Adjust Speed Limit": 1,
+				"Slipstream Boost": 1,
+				"Cooldown": 1
+			},
+			"sort-key": "row-2-40"
+		},
+		{
+			"name": "Tires 41",
+			"category": ["Upgrade", "Tires", "Advanced"],
+			"progression": true,
+			"value": {
+				"Boost": 2,
+				"Adjust Speed Limit": 2
+			},
+			"sort-key": "row-2-41"
+		},
+		{
+			"name": "Turbo Charger 42",
+			"category": ["Upgrade", "Turbo Charger", "7", "Advanced"],
+			"progression": true,
+			"value": {
+				"Burn": 2,
+				"Cooldown": 3
+			},
+			"sort-key": "row-2-42"
+		},
+		{
+			"name": "Turbo Charger 43",
+			"category": ["Upgrade", "Turbo Charger", "8", "Advanced"],
+			"progression": true,
+			"value": {
+				"Burn": 1,
+				"Scrap": 6
+			},
+			"sort-key": "row-2-43"
+		},
+		{
+			"name": "Wings 44",
+			"category": ["Upgrade", "Wings", "4", "Advanced"],
+			"progression": true,
+			"value": {
+				"Burn": 1,
+				"Scrap": 2,
+				"Adjust Speed Limit": 2
+			},
+			"sort-key": "row-2-44"
+		},
+		{
+			"name": "Wings 45",
+			"category": ["Upgrade", "Wings", "3", "Advanced"],
+			"progression": true,
+			"value": {
+				"Burn": 1,
+				"Scrap": 2,
+				"Adjust Speed Limit": 2
+			},
+			"sort-key": "row-2-45"
+		},
+		{
+			"name": "Wings 46",
+			"category": ["Upgrade", "Wings", "6", "Advanced"],
+			"progression": true,
+			"value": {
+				"Burn": 2,
+				"Adjust Speed Limit": 3
+			},
+			"sort-key": "row-2-46"
+		},
+		{
+			"name": "4 Wheel Drive 47",
+			"category": ["Upgrade", "4 Wheel Drive", "Advanced"],
+			"progression": true,
+			"value": {
+				"Boost": 1,
+				"Accelerate": 1
+			},
+			"sort-key": "row-2-47"
+		},
+		{
+			"name": "Heat Upgrade 48",
+			"category": ["Upgrade", "Heat", "Advanced"],
+			"progression": true,
+			"sort-key": "row-2-48"
+		},
+		{
+			"name": "Air Intake 49",
+			"category": ["Upgrade", "Air Intake", "1", "Heavy Rain"],
+			"progression": true,
+			"value": {
+				"Super Cool": 1,
+				"Salvage": 4,
+				"Negative Adjust Speed Limit": 1
+			},
+			"sort-key": "row-2-49"
+		},
+		{
+			"name": "Air Intake 50",
+			"category": ["Upgrade", "Air Intake", "0", "Heavy Rain"],
+			"progression": true,
+			"value": {
+				"Super Cool": 1,
+				"Slipstream Boost": 1,
+				"Reduce Stress": 1
+			},
+			"sort-key": "row-2-50"
+		},
+		{
+			"name": "Air Intake 51",
+			"category": ["Upgrade", "Air Intake", "1", "Heavy Rain"],
+			"progression": true,
+			"value": {
+				"Super Cool": 1,
+				"Cooldown": 1
+			},
+			"sort-key": "row-2-51"
+		},
+		{
+			"name": "Air Intake 52",
+			"category": ["Upgrade", "Air Intake", "3", "Heavy Rain"],
+			"progression": true,
+			"value": {
+				"Super Cool": 1,
+				"Scrap": 3
+			},
+			"sort-key": "row-2-52"
+		},
+		{
+			"name": "Air Intake 53",
+			"category": ["Upgrade", "Air Intake", "4", "Heavy Rain"],
+			"progression": true,
+			"value": {
+				"Super Cool": 1,
+				"Scrap": 4
+			},
+			"sort-key": "row-2-53"
+		},
+		{
+			"name": "Air Intake 54",
+			"category": ["Upgrade", "Air Intake", "Heavy Rain"],
+			"progression": true,
+			"value": {
+				"Boost": 1,
+				"Refresh": 1,
+				"Negative Adjust Speed Limit": 1
+			},
+			"sort-key": "row-2-54"
+		},
+		{
+			"name": "Front Wing 55",
+			"category": ["Upgrade", "Front Wing", "Tunnel Vision"],
+			"progression": true,
+			"value": {
+				"Boost": 1,
+				"Draft": 3
+			},
+			"sort-key": "row-2-55"
+		},
+		{
+			"name": "Front Wing 56",
+			"category": ["Upgrade", "Front Wing", "0", "Tunnel Vision"],
+			"progression": true,
+			"value": {
+				"Draft": 1,
+				"Direct Play": 1,
+				"Refresh": 1
+			},
+			"sort-key": "row-2-56"
+		},
+		{
+			"name": "Front Wing 57",
+			"category": ["Upgrade", "Front Wing", "2", "Tunnel Vision"],
+			"progression": true,
+			"value": {
+				"Draft": 2,
+				"Salvage": 2,
+				"Scrap": 5
+			},
+			"sort-key": "row-2-57"
+		},
+		{
+			"name": "Front Wing 58",
+			"category": ["Upgrade", "Front Wing", "3", "Tunnel Vision"],
+			"progression": true,
+			"value": {
+				"Draft": 1,
+				"Adjust Speed Limit": 1,
+				"Scrap": 3
+			},
+			"sort-key": "row-2-58"
+		},
+		{
+			"name": "Front Wing 59",
+			"category": ["Upgrade", "Front Wing", "4", "Tunnel Vision"],
+			"progression": true,
+			"value": {
+				"Draft": 1,
+				"Refresh": 1,
+				"Scrap": 4
+			},
+			"sort-key": "row-2-59"
+		},
+		{
+			"name": "Front Wing 60",
+			"category": ["Upgrade", "Front Wing", "6", "Tunnel Vision"],
+			"progression": true,
+			"value": {
+				"Draft": 2,
+				"Burn": 1
+			},
+			"sort-key": "row-2-60"
+		},
+		{
+			"name": "Sliding Skirts 61",
+			"category": ["Upgrade", "Sliding Skirts", "Rocky Road"],
+			"progression": true,
+			"value": {
+				"Boost": 1,
+				"Extra Slipstream": 1,
+				"Adjust Speed Limit": 1,
+				"Reduce Stress": 1
+			},
+			"sort-key": "row-2-61"
+		},
+		{
+			"name": "Sliding Skirts 62",
+			"category": ["Upgrade", "Sliding Skirts", "1", "Rocky Road"],
+			"progression": true,
+			"value": {
+				"Extra Slipstream": 1,
+				"Slipstream Boost": 1
+			},
+			"sort-key": "row-2-62"
+		},
+		{
+			"name": "Sliding Skirts 63",
+			"category": ["Upgrade", "Sliding Skirts", "1", "Rocky Road"],
+			"progression": true,
+			"value": {
+				"Extra Slipstream": 1,
+				"Refresh": 1
+			},
+			"sort-key": "row-2-63"
+		},
+		{
+			"name": "Sliding Skirts 64",
+			"category": ["Upgrade", "Sliding Skirts", "2", "Rocky Road"],
+			"progression": true,
+			"value": {
+				"Extra Slipstream": 1,
+				"Direct Play": 1
+			},
+			"sort-key": "row-2-64"
+		},
+		{
+			"name": "Sliding Skirts 65",
+			"category": ["Upgrade", "Sliding Skirts", "2", "3", "Rocky Road"],
+			"progression": true,
+			"value": {
+				"Extra Slipstream": 1
+			},
+			"sort-key": "row-2-65"
+		},
+		{
+			"name": "Sliding Skirts 66",
+			"category": ["Upgrade", "Sliding Skirts", "4", "6", "Rocky Road"],
+			"progression": true,
+			"value": {
+				"Extra Slipstream": 1,
+				"Burn": 1
+			},
+			"sort-key": "row-2-66"
+		},
+		 
+		{
+	    		"name": "Random Sponsorship card",
+	    		"category": ["Sponsorship", "Other"],
+	    		"useful": true,
+	    		"count": 6,
+	    		"sort-key": "row-3-02"
+		},
+		{
+	    		"name": "Heat card",
+	    		"category": ["Heat", "Other"],
+	    		"classification_count": {
+	    			"progression": 3,
+	    			"useful": 3
+	    		},
+	    		"sort-key": "row-3-03"
+		},
+		{
+	    		"name": "Remove Stress",
+	    		"category": ["Other"],
+	    		"classification_count": {
+	    			"progression": 3,
+	    			"useful": 3
+	    		},
+	    		"sort-key": "row-3-04"
+		},
+		{
+	    		"name": "Heat trap",
+	    		"category": ["Trap"],
+	    		"trap": true,
+	    		"count": 5,
+	    		"sort-key": "row-3-05"
+		},
+		{
+	    		"name": "Stress trap",
+	    		"category": ["Trap"],
+	    		"trap": true,
+	    		"count": 5,
+	    		"sort-key": "row-3-06"
+		}
+	]
+}

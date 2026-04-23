@@ -1,0 +1,85 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+	"core": {
+		"death_link": {
+			"default": false,
+			"description": [ 
+				"You send a death link whenever you spin out.",
+				"To receive a death link, spin out. If you did not pass a corner that turn, stay where you are."
+			]
+		}
+	},
+	"user": {
+		"include_basic_upgrades": {
+			"type": "Toggle",
+			"display_name": "Include Basic upgrade cards?",
+			"description": [ 
+				"Whether to include the basic upgrade cards 1-17",
+				"You must have one of either basic upgrades or advanced upgrades turned on."
+			],
+			"default": true,
+			"group": "Upgrades"
+		},
+		"include_advanced_upgrades": {
+			"type": "Toggle",
+			"display_name": "Include Advanced upgrade cards?",
+			"description": [ 
+				"Whether to include the advanced upgrade cards 18-48",
+				"You must have one of either basic upgrades or advanced upgrades turned on."
+			],
+			"default": true,
+			"group": "Upgrades"
+		},
+		"include_heavy_rain_expansion": {
+			"type": "Toggle",
+			"display_name": "Include upgrade cards from the Heavy Rain expansion?",
+			"description": [ 
+				"Whether to include the Heavy Rain upgrade cards 49-54",
+				"In order to use this, you must have advanced upgrades turned on."
+			],
+			"default": false,
+			"group": "Expansions"
+		},
+		"include_tunnel_vision_expansion": {
+			"type": "Toggle",
+			"display_name": "Include upgrade cards from the Tunnel Vision expansion?",
+			"description": [ 
+				"Whether to include the Tunnel Vision upgrade cards 55-60",
+				"In order to use this, you must have advanced upgrades turned on."
+			],
+			"default": false,
+			"group": "Expansions"
+		},
+		"include_rocky_road_expansion": {
+			"type": "Toggle",
+			"display_name": "Include upgrade cards from the Rocky Road expansion?",
+			"description": [ 
+				"Whether to include the Rocky Road upgrade cards 61-66",
+				"In order to use this, you must have advanced upgrades turned on."
+			],
+			"default": false,
+			"group": "Expansions"
+		},
+		"include_sponsorship_cards": {
+			"type": "Toggle",
+			"display_name": "Include Sponsorship cards?",
+			"description": [ 
+				"Whether to include the Sponsorship cards",
+				"These will not affect logic and are intended to break logic."
+			],
+			"default": true,
+			"group": "Other"
+		},
+		"include_traps": {
+			"type": "Toggle",
+			"display_name": "Include traps?",
+			"description": [ 
+				"Adds two kinds of traps: the Heat trap and the Stress trap.",
+				"The Heat trap requires you to put a Heat from your Engine into your discard pile.",
+				"The Stress trap requires you to boost for free on your next turn as if you played a Stress card."
+			],
+			"default": true,
+			"group": "Other"
+		}
+	}
+}

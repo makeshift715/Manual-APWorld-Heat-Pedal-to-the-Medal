@@ -1,0 +1,79 @@
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+	"Starting": {},
+	"Upgrade": {},
+	"Heat": {},
+	"Card Draw": { "hidden": true },
+	"Other": {},
+	
+	"0": { "hidden": true },
+	"1": { "hidden": true },
+	"2": { "hidden": true },
+	"3": { "hidden": true },
+	"4": { "hidden": true },
+	"5": { "hidden": true },
+	"6": { "hidden": true },
+	"7": { "hidden": true },
+	"8": { "hidden": true },
+	
+	"Starting Upgrade": {},
+	"4 Wheel Drive": {},
+	"Brakes": {},
+	"Cooling System": {},
+	"Body": {},
+	"R.P.M.": {},
+	"Tires": {},
+	"Wings": {},
+	"Turbo Charger": {},
+	"Fuel": {},
+	"Gas Pedal": {},
+	"Suspension": {},
+	"Air Intake": {},
+	"Front Wing": {},
+	
+	"Sphere 0": {},
+	"Victory": {},
+	"Corner": {},
+	"Slipstream": {},
+	"Speed": {},
+	"Complete Lap": {},
+	"Placement": {},
+	"Race Start": {},
+	"Pass Cars": {},
+	"Boost": {},
+	"Cooldown": {},
+	"Scrap": {},
+	"Reduce Stress": {},
+	"Refresh": {},
+	"Salvage": {},
+	"Direct Play": {},
+	"Accelerate": {},
+	"Named Cards": {},
+	
+	"Basic": { 
+    		"yaml_option": ["include_basic_upgrades"],
+    		"hidden": true
+    	},
+    	"Advanced": { 
+    		"yaml_option": ["include_advanced_upgrades"],
+    		"hidden": true
+    	},
+    	"Sponsorship": { 
+    		"yaml_option": ["include_sponsorship_cards"]
+    	},
+    	"Heavy Rain": { 
+    		"yaml_option": ["include_heavy_rain_expansion"],
+    		"hidden": true
+    	},
+    	"Tunnel Vision": { 
+    		"yaml_option": ["include_tunnel_vision_expansion"],
+    		"hidden": true
+    	},
+    	"Rocky Road": { 
+    		"yaml_option": ["include_rocky_road_expansion"],
+    		"hidden": true
+    	},
+    	"Trap": {
+    		"yaml_option": ["include_traps"]
+    	}
+}
